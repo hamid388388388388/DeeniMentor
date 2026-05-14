@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Deeni Mentor</string>
+    <string name="notification_channel_id">deeni_mentor_reminders</string>
+    <string name="notification_channel_name">Daily Reminders</string>
+    <string name="checkin_reminder_title">Daily Check-In Reminder</string>
+    <string name="checkin_reminder_text">Don\'t forget your daily check-in! Track your Salah and habits.</string>
+</resources>
