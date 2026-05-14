@@ -1,72 +1,78 @@
-# DEENI Mentor — Islamic Life Growth Companion
+# <p align="center">
 
-## Project Info
-- **App Name:** DEENI Mentor
-- **Team:** Abdul Rauf (24I-0060), M. Hamid (24F-0030), Fauzan Tahir (24F-0042)
-- **Institution:** FAST-NUCES | BS Artificial Intelligence
-- **Iteration:** 3 (Final)
+# &#x20; <img src="https://img.shields.io/badge/Platform-Android-green?style=for-the-badge\&logo=android" />
 
-## Features
-1. Firebase Authentication (Login/Register)
-2. Growth Path Onboarding (Starter/Pro/Ihsan)
-3. Daily Check-In (Salah, Sleep, Mood, Productivity)
-4. Quran Progress Tracker
-5. Analytics Dashboard
-6. Dua Collection with Search & Favorites
-7. Islamic Goals Tracker
-8. Profile & Streak System
-9. Settings Screen
-10. Daily Reminder Notifications
+# &#x20; <img src="https://img.shields.io/badge/Language-Kotlin-purple?style=for-the-badge\&logo=kotlin" />
 
-## How to Run
+# &#x20; <img src="https://img.shields.io/badge/UI-Jetpack%20Compose-blue?style=for-the-badge\&logo=jetpackcompose" />
 
-### Prerequisites
-- Android Studio Panda 2025.3.2 or later
-- Android SDK API 28+
-- Google Services JSON file
+# &#x20; <img src="https://img.shields.io/badge/Firebase-Auth%20%2B%20Firestore-orange?style=for-the-badge\&logo=firebase" />
 
-### Setup Steps
-1. Clone or extract the project
-2. Open Android Studio → File → Open → Select `DeeniMentor` folder
-3. Add your `google-services.json` to `app/` folder
-4. Enable Firebase Email/Password Authentication in Firebase Console
-5. Wait for Gradle sync to complete
-6. Run on emulator (Pixel 6, API 36) or physical device
+# </p>
 
-### Build Requirements
-- Kotlin 2.0+
-- Jetpack Compose BOM
-- Room Database
-- Firebase Auth + Firestore
-- WorkManager
+# 
 
-## Architecture
-MVVM (Model-View-ViewModel) with Clean Architecture
-- **UI Layer:** Jetpack Compose screens + ViewModels
-- **Data Layer:** Room DB (local) + Firebase (auth)
-- **Repository Pattern:** Single source of truth
+# <h1 align="center">🕌 DEENI Mentor</h1>
 
-## Package Structure
-```
-com.deenimentor/
-├── data/
-│   ├── db/          (Room Database, DAOs)
-│   ├── model/       (Entities)
-│   └── repository/  (AppRepository)
-├── notifications/   (WorkManager, NotificationHelper)
-├── ui/
-│   ├── analytics/
-│   ├── auth/
-│   ├── checkin/
-│   ├── dua/
-│   ├── goals/
-│   ├── home/
-│   ├── onboarding/
-│   ├── profile/
-│   ├── quran/
-│   ├── settings/
-│   ├── splash/
-│   └── theme/
-├── MainActivity.kt
-└── Routes.kt
-```
+# <h3 align="center">Your Islamic Life Growth Companion</h3>
+
+# 
+
+# <p align="center">
+
+# &#x20; A beautifully designed Android app to help Muslims track their daily Islamic practices,
+
+# &#x20; Quran progress, duas, goals, and spiritual growth — all in one place.
+
+# </p>
+
+# 
+
+# \---
+
+# 
+
+# \## ✨ Features
+
+# 
+
+# | Feature | Description |
+
+# |--------|-------------|
+
+# | 🔐 \*\*Authentication\*\* | Secure login \& registration via Firebase |
+
+# | 🌱 \*\*Growth Path Onboarding\*\* | Choose your level: Starter, Pro, or Ihsan |
+
+# | 🕋 \*\*Daily Check-In\*\* | Track Salah, Sleep, Mood \& Productivity |
+
+# | 📖 \*\*Quran Tracker\*\* | Monitor your Quran reading progress |
+
+# | 📊 \*\*Analytics Dashboard\*\* | Visualize your spiritual growth over time |
+
+# | 🤲 \*\*Dua Collection\*\* | Browse, search \& favorite duas |
+
+# | 🎯 \*\*Islamic Goals\*\* | Set and track personal Islamic goals |
+
+# | 👤 \*\*Profile \& Streaks\*\* | Build consistency with streak tracking |
+
+# | 🔔 \*\*Daily Notifications\*\* | Get reminded for prayers and check-ins |
+
+# | ⚙️ \*\*Settings\*\* | Customize your experience |
+
+# 
+
+# \---
+
+# 
+
+# \## 🏗️ Architecture
+
+# 
+
+# ```
+
+# MVVM + Clean Architecture
+
+# ```
+
